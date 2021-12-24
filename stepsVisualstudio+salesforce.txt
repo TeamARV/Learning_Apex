@@ -1,0 +1,15 @@
+obtener CLI
+
+https://developer.salesforce.com/tools/sfdxcli
+
+o mejor el paquete 
+
+https://www.npmjs.com/package/sfdx-cli
+
+yarn global add sfdx-cli
+
+npm install --global sfdx-cli
+
+// sfdx force:project:create -n MyProject
+
+https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_create_new.htm
