@@ -13,3 +13,38 @@ npm install --global sfdx-cli
 // sfdx force:project:create -n MyProject
 
 https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_create_new.htm
+
+
+
+
+
+////////// guia
+
+SFDX: Create Project (Crear proyecto)
+
+editar project-scratch-def.json  para el nombre
+
+PARA LOGUEARME
+SFDX: Authorize an Org (Autorizar una organización)
+
+para crear un clase 
+
+Ingrese SFDX: Create Apex Class (Crear clase de Apex).
+
+example 
+
+public with sharing class AccountController {
+  public static List<Account> getAllActiveAccounts() {
+    return [SELECT Id,Name,Active__c FROM Account WHERE Active__c = 'Yes'];
+  }
+}
+
+para velidar un query 
+
+SFDX:Execute SOQL Query with Currently Selected Text (
+
+para el deploy 
+
+CLICK derecho en la clase y ya 
+
+    SFDX: Deploy Source to Org (Implementar fuente en organización).
